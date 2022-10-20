@@ -5,7 +5,6 @@
 }
 
 html {
-	
 	font-size: 62.5%;
 }
 
@@ -20,35 +19,63 @@ body{
 	font-weight: 800;
 	color: #ccccff;	
 }
+
 .sec-main {
 	width: 100%;
 	height: 100%;
+	display: flex;
 }
-.main {
+
+.img-box {
+	width: 550px;
+	height: 100vh;
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
 }
+
+.avatar {
+	border-radius: 2.5rem;
+	width: 55rem;
+	height: 58rem;
+	transition: all 0.3s;	
+}
+
+img:hover {
+	width: 56rem;
+	height: 59rem;
+	transform: translateX(1rem);
+}
+
 .box {
 	display: flex;
 	flex-direction: column;
-	align-items: center;
+	align-items: left;
 	justify-content: center;
-	gap: 2.4rem;
-	color: #ccccff;
+	gap: 2rem;
+	width: 900px;
+	color: #ccccff;	
 }
+
 .heading1 {
 	font-size: 4.4rem;
 	color: #fff;
-    margin-left: 100px;
-    width: 650px;
+    width: 850px;
+}
+
+.heading1 .name{
+    color: #800060;
+	font-size: 6.4rem;
+	line-height: 1.5em;
+	left: 0;
 }
 .heading1 a{
-    color: #800060;
+	color: white;
 }
+
 .heading2 {
 	color: #fff;
-	font-size: 2.4rem;
-    
+	font-size: 2.4rem; 
+	margin-bottom: 10px;  
 }
 
 .heading2 a {
@@ -86,7 +113,6 @@ body{
 
 .github:hover{
     fill: white;
-
 }
 
 .linkedin:hover{
@@ -95,33 +121,14 @@ body{
 
 .twitter:hover{
     fill: #1DA1F2;
-
 }
-
+.discord:hover{
+	fill: white;
+}
 .src:hover{
-
     color: red;
-
 }
 
-.img-box {
-	width: 100%;
-	height: 100vh;
-	display: grid;
-    
-	align-items: center;
-	justify-content: center;
-}
 
-.avatar {
-	/* background-color: rgba(255, 255, 255, 0.05); */
-	border-radius: 2.5rem;
-	width: 55rem;
-	height: 55rem;
-	transition: all 0.3s;
-}
 
-.avatar:hover {
-	transform: translateY(-1.2rem);
-	/* box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06); */
-}
+
