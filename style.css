@@ -27,7 +27,7 @@ body{
 }
 
 .img-box {
-	width: 550px;
+	width: 50vw;
 	height: 100vh;
 	display: grid;
 	justify-content: center;
@@ -52,14 +52,15 @@ img:hover {
 	align-items: left;
 	justify-content: center;
 	gap: 2rem;
-	width: 900px;
+	width: 70vw;
 	color: #ccccff;	
+	padding: 30px;
 }
 
 .heading1 {
 	font-size: 4.4rem;
 	color: #fff;
-    width: 850px;
+    width: 100%;
 }
 
 .heading1 .name{
@@ -148,7 +149,7 @@ img:hover {
 	font-weight: bold;
 }
 
-@media (min-width: 100px) and (max-width: 720px) 
+@media (min-width: 420px) and (max-width: 780px) 
 {
 	* {
 		padding: 0;
@@ -185,7 +186,15 @@ img:hover {
 
 	.avatar{
 		margin-top: 5px;
-		width: 550px;
+		width: 590px;
+	    height: 100%;
+		position: absolute;
+		left: 0;
+	}
+
+	img:hover {
+		margin-top: 5px;
+		width: 590px;
 	    height: 100%;
 		position: absolute;
 		left: 0;
@@ -198,7 +207,7 @@ img:hover {
 		width: 100%;
 		color: #ccccff;
 		position: fixed;
-		margin: 150px 50px;	
+		margin: 150px 20px;	
 	}
 
 	.heading1 {
@@ -265,6 +274,8 @@ img:hover {
 	}
 
 }
+
+
 
 
 
