@@ -148,7 +148,7 @@ img:hover {
 	font-weight: bold;
 }
 
-@media (min-width: 220px) and (max-width: 720px) 
+@media (min-width: 100px) and (max-width: 720px) 
 {
 	* {
 		padding: 0;
@@ -175,6 +175,12 @@ img:hover {
 		display: flex;
 		height: 100vh;
 		position: relative;
+		background-image: linear-gradient(
+		to left,
+		#3c005a,
+		black
+	);
+		background-repeat: no-repeat;
 	}
 
 	.avatar{
