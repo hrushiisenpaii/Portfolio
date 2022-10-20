@@ -148,7 +148,7 @@ img:hover {
 	font-weight: bold;
 }
 
-@media (min-width: 320px) and (max-width: 720px) 
+@media (min-width: 220px) and (max-width: 720px) 
 {
 	* {
 		padding: 0;
