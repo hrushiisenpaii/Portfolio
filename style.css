@@ -304,7 +304,7 @@ body{
 	
 	.sec-main {
 		width: 100%;
-		height: auto;
+		height: 100vh;
 		display: grid;
 	}
     
@@ -314,16 +314,16 @@ body{
 		background-size: 60vw 45vw;
 		justify-content: center;
 		align-items: center;
-		width: 80%;
-		margin-top: 130px;
+		width: auto;
+		margin-top: 30vh;
 		margin-left: 80px;
-		height: 85vh;
+		height: auto;
 		opacity: 50%;
 	}
 
 	.content-box {
 		display: flex;
-		height: 99vh;
+		height: 89vh;
 		flex-direction: column;
 		gap: 4vw;
 		width: 100%;
